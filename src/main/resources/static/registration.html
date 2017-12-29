@@ -6,5 +6,20 @@
 </head>
 <body>
 Registration
+<form action="/add" method="POST">
+    <label>login:</label><input type="text" name="login"><br>
+    <label>password:</label><input type="password" name="password"><br>
+    <label>name:</label><input type="text" name="name"><br>
+    <label>lastName:</label><input type="text" name="lastName"><br>
+    <label>gender:</label><input type="radio" name="gender" value="male" checked> <span>male</span>
+    <input type="radio" name="gender" value="female"> <span>female</span><br>
+    <label>speciality:</label><select name="speciality" size="1">
+    <option selected value="Органическая химия">organic</option>
+    <option value="Неорганическая химия">inorganic</option>
+    <option value="Аналитическая химия">analytical</option>
+    <option value="Физическая химия">physical</option>
+</select><br><br>
+    <input type="submit" value="registration">
+</form>
 </body>
 </html>

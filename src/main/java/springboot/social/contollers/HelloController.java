@@ -1,4 +1,4 @@
-package springboot.social;
+package springboot.social.contollers;
 
 
 import org.springframework.stereotype.Controller;
