@@ -1,5 +1,9 @@
 package springboot.social.service.interfaces;
 
+import springboot.social.models.User;
+
 public interface SimpleUserService {
-    void addUser(String login, String password, String name, String lastName);
+    void addUser(User user);
+    User getByEmail(String email);
+    User getByLoginAndPassword(String login, String password);
 }

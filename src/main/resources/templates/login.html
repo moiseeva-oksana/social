@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style/login.css"/>
+</head>
+<body>
+<div class="wrapper"><h3>Enter you login and password</h3>
+    <form action="/signin" method="POST">
+        <label for="login">login</label> : <input id="login" type="text" name="login"/><br/><br/>
+        <label for="password">password</label> : <input id="password" type="password" name="password"/><br/><br/>
+        <input type="submit" value="enter"/>
+    </form>
+</div>
+</body>
+</html>
